@@ -41012,8 +41012,8 @@ break
 case 5:return A.J(null,r)
 case 1:return A.I(p,r)}})
 return A.K($async$rk,r)},
-adI(){var s,r,q,p,o,n=this,m=null,l="query",k="http://localhost:9090",j=t.N,i=t.z,h=A.Z(["transports",A.b(["websocket"],t.s),"autoConnect",!1],j,i),g=A.eh(k,0,m),f=g.ger()+"://"+g.gjV(g)+":"+g.go3(g),e=g.gdD(g),d=$.atE.ai(0,f)&&$.atE.h(0,f).d.ai(0,e),c=h.h(0,"forceNew")===!0||h.h(0,"force new connection")===!0||!1===h.h(0,"multiplex")||d,b=A.bE("io")
-if(c){$.aHY().aU(B.t,"ignoring socket cache for http://localhost:9090",m,m)
+adI(){var s,r,q,p,o,n=this,m=null,l="query",k="https://renderbbserver.onrender.com",j=t.N,i=t.z,h=A.Z(["transports",A.b(["websocket"],t.s),"autoConnect",!1],j,i),g=A.eh(k,0,m),f=g.ger()+"://"+g.gjV(g)+":"+g.go3(g),e=g.gdD(g),d=$.atE.ai(0,f)&&$.atE.h(0,f).d.ai(0,e),c=h.h(0,"forceNew")===!0||h.h(0,"force new connection")===!0||!1===h.h(0,"multiplex")||d,b=A.bE("io")
+if(c){$.aHY().aU(B.t,"ignoring socket cache for https://renderbbserver.onrender.com",m,m)
 b.b=A.aB2(h,k)}else{s=$.atE.h(0,f)
 if(s==null){s=A.aB2(h,k)
 $.atE.n(0,f,s)}b.b=s}if(g.gl3(g).length!==0&&h.h(0,l)==null)h.n(0,l,g.gl3(g))
@@ -41193,7 +41193,7 @@ case 3:j=h.bT(g.a_(d.a,"token"))
 p=5
 l=t.N
 s=8
-return A.F(A.aF_(A.eh("http://localhost:9090/"+b,0,null),A.Z(["Content-Type","application/json","Authorization","Bearer "+A.j(j)],l,l)),$async$d1)
+return A.F(A.aF_(A.eh("https://renderbbserver.onrender.com/"+b,0,null),A.Z(["Content-Type","application/json","Authorization","Bearer "+A.j(j)],l,l)),$async$d1)
 case 8:n=d
 if(n.b===200){l=n
 l=B.an.tT(0,A.atK(A.asU(l.e).c.a.h(0,"charset")).d4(0,l.w),null)
@@ -41224,7 +41224,7 @@ s=3
 return A.F(A.du(),$async$jl)
 case 3:i=g.bT(f.a_(d.a,"token"))
 p=5
-l=A.eh("http://localhost:9090/"+a,0,null)
+l=A.eh("https://renderbbserver.onrender.com/"+a,0,null)
 k=t.N
 k=A.Z(["Content-Type","application/json","Authorization","Bearer "+A.j(i)],k,k)
 s=8
