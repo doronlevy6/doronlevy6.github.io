@@ -40803,7 +40803,7 @@ j=k.length
 q=A.b6(A.cH(A.b([q,o,m,l,A.b6(j!==0?A.z5(new A.ap_(p,k),j):A.df(A.aq("No players available.",i,i,i,A.aS(i,i,B.O,i,i,i,i,i,i,i,i,14,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i),i,i),1)],n),B.a9,B.m,B.q),s)
 o=A.ao(i,i,12)
 m=A.b([new A.zT("Parameter",h,new A.ap0(p),i),A.ao(i,i,16),new A.zT("Total",h,new A.ap1(p),i)],n)
-if(p.as)B.b.P(m,A.b([A.ao(i,i,12),A.bR(B.nd,B.bS,i,20),A.aCG(new A.Oq(p.Q,p.gaeI(),B.bf,B.Jk,B.fm,i),0.7),A.bR(B.cc,B.bS,i,20)],n))
+if(p.as)B.b.P(m,A.b([A.ao(i,i,22),A.bR(B.nd,B.bS,i,20),A.aCG(new A.Oq(p.Q,p.gaeI(),B.bf,B.Jk,B.fm,i),0.7),A.bR(B.cc,B.bS,i,20)],n))
 m=A.bF(m,B.v,B.m,B.q)
 l=A.ao(i,12,i)
 k=p.y.length
