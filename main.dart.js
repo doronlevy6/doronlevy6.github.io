@@ -47489,7 +47489,7 @@ for(s=this.r,r=s.length-1,q=b.a,p=b.b,o=a.a*q,n=a.b*p;r>=0;--r){m=s[r]
 l=m.c
 k=l.a*q-o
 l=l.b*p-n
-if(Math.sqrt(k*k+l*l)<=34)return m.a}return null},
+if(Math.sqrt(k*k+l*l)<=44)return m.a}return null},
 anp(a,b){var s,r,q,p,o,n,m,l,k,j=this.auN(a,b)
 for(s=this.w,r=s.length-1,q=b.a,p=b.b;r>=0;--r){o=s[r]
 n=o.c
@@ -48072,8 +48072,8 @@ n.r=B.f.gp(0)
 n.b=B.aB
 n.c=2.2
 m=a.a
-m.df(s,18,q)
-m.df(s,18,n)
+m.df(s,23.5,q)
+m.df(s,23.5,n)
 l=r?"O":"X"
 k=A.q8(j,j,j,j,A.cU(j,B.a1h,l+c.d),B.R,B.a3,j,B.L,B.ap)
 k.oQ()
@@ -53198,7 +53198,7 @@ break
 case 5:return A.q(null,r)
 case 1:return A.p(p.at(-1),r)}})
 return A.r($async$Dj,r)},
-ai2(){var s,r,q="2026-04-06T10:57:16Z",p=A.rr(q)
+ai2(){var s,r,q="2026-04-09T09:29:33Z",p=A.rr(q)
 if(p==null)return q
 s=p.Am()
 r=new A.aKS()
@@ -53230,7 +53230,7 @@ r.push(A.R(l,8,l))
 q=A.aW(10)
 p=A.eu(B.ea,1)
 n=A.b([A.o("Version: 1.0.20+20",l,l,l,l,A.Q(l,l,l,l,l,l,l,l,l,l,l,13,l,l,B.aJ,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),A.R(l,4,l),A.o("Last Deploy: "+m.ai2(),l,l,l,l,A.Q(l,l,B.ax,l,l,l,l,l,l,l,l,12,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l)],s)
-B.b.N(n,A.b([A.R(l,4,l),A.o("Build SHA: a8484c7",l,l,l,l,A.Q(l,l,B.ax,l,l,l,l,l,l,l,l,12,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l)],s))
+B.b.N(n,A.b([A.R(l,4,l),A.o("Build SHA: 4c69623",l,l,l,l,A.Q(l,l,B.ax,l,l,l,l,l,l,l,l,12,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l)],s))
 r.push(A.aQ(l,A.aY(n,B.a0,B.j,B.k,0,B.u),B.n,l,l,new A.aX(B.iy,l,p,q,l,l,B.G),l,l,l,new A.X(12,12,12,12),l,l,1/0))
 r.push(A.mU(l,40))
 r.push(A.o("Player Cost Overrides",l,l,l,l,A.Q(l,l,B.eb,l,l,l,l,l,l,l,l,22,l,l,B.B,l,l,!0,l,l,l,l,l,l,l,l),l,l,l))
