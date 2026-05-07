@@ -50000,8 +50000,7 @@ break
 case 6:case 1:return A.q(q,r)
 case 2:return A.p(o.at(-1),r)}})
 return A.r($async$Cp,r)},
-aeW(){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=j.MB(),g=A.a0(h),f=g.i("aA<1>"),e=A.a3(new A.aA(h,new A.aBK(),f),f.i("y.E")),d=j.lt(j.z.h(0,"balance")),c=j.lt(j.z.h(0,"gamesRemaining")),b=j.z.h(0,"defaultGameCost")
-if(b==null)b=200
+aeW(){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=j.MB(),g=A.a0(h),f=g.i("aA<1>"),e=A.a3(new A.aA(h,new A.aBK(),f),f.i("y.E")),d=j.lt(j.z.h(0,"balance")),c=j.lt(j.z.h(0,"gamesRemaining"))
 if(j.ax!=null||j.ay!=null)s="\u05de\u05e9\u05d7\u05e7\u05d9 \u05d0\u05d5\u05dc\u05dd \u05d1\u05d8\u05d5\u05d5\u05d7"
 else s=h.length===0?"\u05d0\u05d9\u05df \u05de\u05e9\u05d7\u05e7\u05d9\u05dd \u05e9\u05dc\u05d0 \u05e9\u05d5\u05dc\u05de\u05d5":"\u05de\u05e9\u05d7\u05e7\u05d9\u05dd \u05e9\u05dc\u05d0 \u05e9\u05d5\u05dc\u05de\u05d5 \u05dc\u05d0\u05d5\u05dc\u05dd"
 f=A.b([A.b6(4294965229),B.f],t.d)
@@ -50012,28 +50011,28 @@ o=p?B.bM:B.a1
 n=A.aU(14)
 n=A.aD(i,A.ag(B.mL,B.f,i,i),B.m,i,i,new A.aV(o,i,i,n,i,i,B.B),i,42,i,i,i,i,42)
 o=A.N(i,i,12)
-m=A.l(s,i,i,i,i,A.L(i,i,A.b6(4282198815),i,i,i,i,i,i,i,i,22,i,i,B.v,i,i,!0,i,i,i,i,i,i,i,i),i,i,i)
-l=j.ax!=null||j.ay!=null?j.Ze():"\u05de\u05d7\u05d9\u05e8 \u05d1\u05e8\u05d9\u05e8\u05ea \u05de\u05d7\u05d3\u05dc: "+A.j(b)+"\u20aa \u05dc\u05de\u05e9\u05d7\u05e7"
-k=t.p
-l=A.b([A.aq(A.b([n,o,A.aB(A.aO(A.b([m,A.l(l,i,i,i,i,A.L(i,i,B.qr,i,i,i,i,i,i,i,i,13,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i,i)],k),B.R,B.i,B.k,0,B.r),1)],k),B.l,B.i,B.k,0,i),A.N(i,18,i)],k)
+m=t.p
+l=A.b([A.l(s,i,i,i,i,A.L(i,i,A.b6(4282198815),i,i,i,i,i,i,i,i,22,i,i,B.v,i,i,!0,i,i,i,i,i,i,i,i),i,i,i)],m)
+if(j.ax!=null||j.ay!=null)l.push(A.l(j.Ze(),i,i,i,i,A.L(i,i,B.qr,i,i,i,i,i,i,i,i,13,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i,i))
+o=A.b([A.aq(A.b([n,o,A.aB(A.aO(l,B.R,B.i,B.k,0,B.r),1)],m),B.l,B.i,B.k,0,i),A.N(i,18,i)],m)
 if(h.length===0){g=B.Q.cS(0.1)
-o=A.aU(16)
-n=A.dZ(B.Q.cS(0.25),1)
-if(j.ax!=null||j.ay!=null)m="\u05dc\u05d0 \u05e0\u05de\u05e6\u05d0\u05d5 \u05de\u05e9\u05d7\u05e7\u05d9\u05dd \u05d1\u05d8\u05d5\u05d5\u05d7 \u05d4\u05d6\u05d4."
-else m=d>0?"\u05d4\u05db\u05d5\u05dc \u05e9\u05d5\u05dc\u05dd. \u05d9\u05e9 \u05ea\u05e9\u05dc\u05d5\u05dd \u05de\u05e8\u05d0\u05e9 \u05dc\u05e2\u05d5\u05d3 "+c+" \u05de\u05e9\u05d7\u05e7\u05d9\u05dd.":"\u05d4\u05db\u05d5\u05dc \u05e9\u05d5\u05dc\u05dd \u05e2\u05d3 \u05e2\u05db\u05e9\u05d9\u05d5."
-l.push(A.aD(i,A.l(m,i,i,i,i,A.L(i,i,B.aB,i,i,i,i,i,i,i,i,18,i,i,B.v,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.m,i,i,new A.aV(g,i,n,o,i,i,B.B),i,i,i,new A.T(16,16,16,16),i,i,1/0))}else{g=g.i("a_<1,iT>")
+n=A.aU(16)
+l=A.dZ(B.Q.cS(0.25),1)
+if(j.ax!=null||j.ay!=null)k="\u05dc\u05d0 \u05e0\u05de\u05e6\u05d0\u05d5 \u05de\u05e9\u05d7\u05e7\u05d9\u05dd \u05d1\u05d8\u05d5\u05d5\u05d7 \u05d4\u05d6\u05d4."
+else k=d>0?"\u05d4\u05db\u05d5\u05dc \u05e9\u05d5\u05dc\u05dd. \u05d9\u05e9 \u05ea\u05e9\u05dc\u05d5\u05dd \u05de\u05e8\u05d0\u05e9 \u05dc\u05e2\u05d5\u05d3 "+c+" \u05de\u05e9\u05d7\u05e7\u05d9\u05dd.":"\u05d4\u05db\u05d5\u05dc \u05e9\u05d5\u05dc\u05dd \u05e2\u05d3 \u05e2\u05db\u05e9\u05d9\u05d5."
+o.push(A.aD(i,A.l(k,i,i,i,i,A.L(i,i,B.aB,i,i,i,i,i,i,i,i,18,i,i,B.v,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),B.m,i,i,new A.aV(g,i,l,n,i,i,B.B),i,i,i,new A.T(16,16,16,16),i,i,1/0))}else{g=g.i("a_<1,iT>")
 g=A.a3(new A.a_(h,new A.aBL(j,h),g),g.i("ap.E"))
-l.push(A.aO(g,B.l,B.i,B.k,0,B.r))}l.push(A.N(i,10,i))
-l.push(A.lJ(A.b6(4293449669),i))
-l.push(A.aq(A.b([A.aB(A.l('\u05e1\u05d4"\u05db \u05de\u05e9\u05d7\u05e7\u05d9\u05dd',i,i,i,i,A.L(i,i,B.h4,i,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),1),A.l(""+h.length,i,i,i,i,A.L(i,i,i,i,i,i,i,i,i,i,i,16,i,i,B.v,i,i,!0,i,i,i,i,i,i,i,i),i,i,i)],k),B.l,B.i,B.k,0,i))
-l.push(A.N(i,6,i))
-if(j.ax!=null||j.ay!=null)l.push(A.aq(A.b([A.aB(A.l("\u05de\u05ea\u05d5\u05db\u05dd \u05dc\u05d0 \u05e9\u05d5\u05dc\u05de\u05d5",i,i,i,i,A.L(i,i,B.h4,i,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),1),A.l(""+e.length,i,i,i,i,A.L(i,i,i,i,i,i,i,i,i,i,i,16,i,i,B.v,i,i,!0,i,i,i,i,i,i,i,i),i,i,i)],k),B.l,B.i,B.k,0,i))
-if(j.ax!=null||j.ay!=null)l.push(A.N(i,6,i))
+o.push(A.aO(g,B.l,B.i,B.k,0,B.r))}o.push(A.N(i,10,i))
+o.push(A.lJ(A.b6(4293449669),i))
+o.push(A.aq(A.b([A.aB(A.l('\u05e1\u05d4"\u05db \u05de\u05e9\u05d7\u05e7\u05d9\u05dd',i,i,i,i,A.L(i,i,B.h4,i,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),1),A.l(""+h.length,i,i,i,i,A.L(i,i,i,i,i,i,i,i,i,i,i,16,i,i,B.v,i,i,!0,i,i,i,i,i,i,i,i),i,i,i)],m),B.l,B.i,B.k,0,i))
+o.push(A.N(i,6,i))
+if(j.ax!=null||j.ay!=null)o.push(A.aq(A.b([A.aB(A.l("\u05de\u05ea\u05d5\u05db\u05dd \u05dc\u05d0 \u05e9\u05d5\u05dc\u05de\u05d5",i,i,i,i,A.L(i,i,B.h4,i,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),1),A.l(""+e.length,i,i,i,i,A.L(i,i,i,i,i,i,i,i,i,i,i,16,i,i,B.v,i,i,!0,i,i,i,i,i,i,i,i),i,i,i)],m),B.l,B.i,B.k,0,i))
+if(j.ax!=null||j.ay!=null)o.push(A.N(i,6,i))
 g=p?'\u05e1\u05d4"\u05db \u05d7\u05d5\u05d1':"\u05d9\u05ea\u05e8\u05d4"
 g=A.aB(A.l(g,i,i,i,i,A.L(i,i,B.h4,i,i,i,i,i,i,i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),i,i,i),1)
-o=j.jS(Math.abs(d))
-l.push(A.aq(A.b([g,A.l(o,i,i,i,i,A.L(i,i,p?B.bM:B.a1,i,i,i,i,i,i,i,i,16,i,i,B.v,i,i,!0,i,i,i,i,i,i,i,i),i,i,i)],k),B.l,B.i,B.k,0,i))
-return A.n7(A.aD(i,A.aO(l,B.R,B.i,B.a4,0,B.r),B.m,i,i,new A.aV(i,i,q,r,B.R1,new A.hN(B.pj,B.l0,B.bz,f,i,i),B.B),i,i,i,new A.T(22,22,22,22),i,i,520),B.ag)},
+n=j.jS(Math.abs(d))
+o.push(A.aq(A.b([g,A.l(n,i,i,i,i,A.L(i,i,p?B.bM:B.a1,i,i,i,i,i,i,i,i,16,i,i,B.v,i,i,!0,i,i,i,i,i,i,i,i),i,i,i)],m),B.l,B.i,B.k,0,i))
+return A.n7(A.aD(i,A.aO(o,B.R,B.i,B.a4,0,B.r),B.m,i,i,new A.aV(i,i,q,r,B.R1,new A.hN(B.pj,B.l0,B.bz,f,i,i),B.B),i,i,i,new A.T(22,22,22,22),i,i,520),B.ag)},
 DQ(){var s=0,r=A.t(t.H),q,p=this,o,n
 var $async$DQ=A.u(function(a,b){if(a===1)return A.p(b,r)
 while(true)switch(s){case 0:o=p.aeU()
@@ -54206,7 +54205,7 @@ break
 case 5:return A.q(null,r)
 case 1:return A.p(p.at(-1),r)}})
 return A.r($async$xB,r)},
-aiM(){var s,r,q="2026-05-06T15:46:56Z",p=A.n3(q)
+aiM(){var s,r,q="2026-05-07T09:20:53Z",p=A.n3(q)
 if(p==null)return q
 s=p.vy()
 r=new A.aM8()
@@ -54246,7 +54245,7 @@ r.push(A.N(l,8,l))
 q=A.aU(10)
 p=A.dZ(B.ee,1)
 n=A.b([A.l("Version: 1.0.20+20",l,l,l,l,A.L(l,l,l,l,l,l,l,l,l,l,l,13,l,l,B.aL,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),A.N(l,4,l),A.l("Last Deploy: "+m.aiM(),l,l,l,l,A.L(l,l,B.aq,l,l,l,l,l,l,l,l,12,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l)],s)
-B.b.O(n,A.b([A.N(l,4,l),A.l("Build SHA: 2b51d3d",l,l,l,l,A.L(l,l,B.aq,l,l,l,l,l,l,l,l,12,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l)],s))
+B.b.O(n,A.b([A.N(l,4,l),A.l("Build SHA: 85e5bad",l,l,l,l,A.L(l,l,B.aq,l,l,l,l,l,l,l,l,12,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l)],s))
 r.push(A.aD(l,A.aO(n,B.R,B.i,B.k,0,B.r),B.m,l,l,new A.aV(B.iF,l,p,q,l,l,B.B),l,l,l,new A.T(12,12,12,12),l,l,1/0))
 r.push(A.lJ(l,40))
 r.push(A.l("Player Cost Overrides",l,l,l,l,A.L(l,l,B.ef,l,l,l,l,l,l,l,l,22,l,l,B.v,l,l,!0,l,l,l,l,l,l,l,l),l,l,l))
